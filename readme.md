@@ -22,7 +22,7 @@ Ubatgroup\Graylog\GraylogServiceProvider::class
 To use the facade, add it to your aliases array in `config/app.php`:
 
 ```php
-'Graylog' => \Ubatgroup\Graylog\Facades\Graylog::class
+'Graylog' => Ubatgroup\Graylog\Facades\Graylog::class
 ```
 
 ### For Laravel 5.4 and more
