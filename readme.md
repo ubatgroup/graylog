@@ -42,7 +42,7 @@ Set the graylog configuration into the .env file :
 * <b>GRAYLOG_FACILITY</b> : graylog facility filter (if this key is not set, it uses <b>APP_URL</b> key)
 * <b>GRAYLOG_APPNAME</b> : graylog source filter (if this key is not set, it uses <b>APP_NAME</b> key)
 
-#####To override the configuration file :
+##### To override the configuration file :
 
 First, publish the configuration file:
 ```sh
