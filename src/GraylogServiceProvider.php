@@ -1,8 +1,7 @@
 <?php
 
-namespace Ubatgroup\Graylog\Providers;
+namespace Ubatgroup\Graylog;
 
-use Ubatgroup\Graylog;
 use Gelf\Publisher;
 use Gelf\Transport\UdpTransport;
 use Illuminate\Support\ServiceProvider;

@@ -6,8 +6,7 @@
  * Time: 09:08
  */
 
-namespace Ubatgroup;
-
+namespace Ubatgroup\Graylog;
 
 use Gelf\Logger;
 use Gelf\Message;

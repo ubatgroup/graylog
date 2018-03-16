@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ubatgroup\\Graylog\\Providers\\GraylogServiceProvider"
+                "Ubatgroup\\Graylog\\GraylogServiceProvider"
             ],
             "aliases": {
                 "Graylog": "Ubatgroup\\Graylog\\Facades\\Graylog"
