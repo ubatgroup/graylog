@@ -15,7 +15,7 @@ class GraylogServiceProvider extends ServiceProvider {
 	 */
 	public function boot() {
 		$this->publishes( [
-			__DIR__ . '/config/graylog.php' => config_path( 'graylog.php' )
+			__DIR__ . '/../config/graylog.php' => config_path( 'graylog.php' )
 		], 'config' );
 	}
 
@@ -25,7 +25,7 @@ class GraylogServiceProvider extends ServiceProvider {
 	 * @return void
 	 */
 	public function register() {
-		$this->mergeConfigFrom( __DIR__ . '/config/graylog.php', 'graylog' );
+		$this->mergeConfigFrom( __DIR__ . '/../config/graylog.php', 'graylog' );
 
 		$server   = $this->app['config']->get( 'graylog.server' );
 		$port     = $this->app['config']->get( 'graylog.port' );
