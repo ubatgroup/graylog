@@ -17,7 +17,7 @@ class Graylog extends Logger {
 	protected $hostname;
 	protected $add_auth_user_auto;
 
-	public function __construct( PublisherInterface $publisher, string $facility, string $hostname, boolean $add_auth_user_auto = true ) {
+	public function __construct( PublisherInterface $publisher, string $facility, string $hostname, boolean $add_auth_user_auto ) {
 		$this->publisher          = $publisher;
 		$this->facility           = $facility;
 		$this->hostname           = $hostname;
